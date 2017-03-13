@@ -1,0 +1,43 @@
+/*
+* {
+  border: 5px solid #000;
+}*/
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* Main */
+.main {
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  /*background: url(http://orig12.deviantart.net/80f6/f/2014/346/5/2/flat_old_computer_wallpaper_green_by_microfreaks-d89kzb8.png) no-repeat center center;*/
+  background-size: cover;
+  background: gray;
+  height: 600px;
+}
+
+.main .container {
+  position: top;
+  top: 100px;
+}
+
+.main h1 {
+  color: rgba(255,240,240,0.7);
+  margin: 0;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.main p {
+  color: rgba(255,240,240,0.7);
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.nav {
+  font-family: Lobster, cursive;
+  position: relative;
+}
+
