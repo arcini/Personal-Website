@@ -21,6 +21,7 @@
 .main .container {
   position: top;
   top: 100px;
+  Display: inline-block;
 }
 
 .main h1 {
