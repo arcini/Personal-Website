@@ -21,6 +21,7 @@
 .main .container {
   position: top;
   top: 100px;
+  Float: left;
   Display: inline-block;
 }
 
