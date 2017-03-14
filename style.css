@@ -1,14 +1,34 @@
+.main {
+    position: relative;
+    margin: auto;
+    max-width: 50em;
+}
+
+.main {
+    text-align: center;
+    font: "Lobster Two", cursive, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
 /*
 * {
   border: 5px solid #000;
-}*/
+}
 
 .container {
   max-width: 940px;
   margin: 0 auto;
 }
 
-/* Main */
+  Main
 .main {
   font-family: 'Lobster Two', cursive;
   text-align: center;
@@ -40,4 +60,4 @@
   font-family: Lobster, cursive;
   position: relative;
 }
-
+*/
