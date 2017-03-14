@@ -27,7 +27,7 @@
     margin-bottom: 0;
 }
 
-.leftspan, .middleleftspan, .middlerightspan, .rightspan {
+span {
     padding: 1em 1.25em 1em 1.25em;
     margin-top: 0;
 }
@@ -35,50 +35,3 @@
 
 
 
-
-
-
-
-/*
-* {
-  border: 5px solid #000;
-}
-
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-}
-
-  Main
-.main {
-  font-family: 'Lobster Two', cursive;
-  text-align: center;
-  background: url(http://orig12.deviantart.net/80f6/f/2014/346/5/2/flat_old_computer_wallpaper_green_by_microfreaks-d89kzb8.png) no-repeat center center;
-  background-size: cover;
-  max-height: 50%;
-  max-width: 50%;
-}
-
-.main .container {
-  position: top;
-  top: 200%;
-}
-
-.main h1 {
-  color: rgba(255,240,240,0.7);
-  margin: 0;
-  font-size: 50px;
-  padding-top: 30px;
-}
-
-.main p {
-  color: rgba(255,240,240,0.7);
-  margin: 0 0 20px 0;
-  font-size: 18px;
-}
-
-.nav {
-  font-family: Lobster, cursive;
-  position: relative;
-}
-*/
