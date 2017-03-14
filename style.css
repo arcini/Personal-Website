@@ -1,15 +1,36 @@
+* {
+    background: rgb(100,183,92);
+    /*border: solid 0.001em #000; */
+}
+
 .main {
     position: relative;
     margin: auto;
     max-width: 50em;
-}
-
-.main {
     text-align: center;
     font-family: "Lobster Two", cursive, sans-serif;
+    font-weight: bold;
+    background: url(http://orig12.deviantart.net/80f6/f/2014/346/5/2/flat_old_computer_wallpaper_green_by_microfreaks-d89kzb8.png) no-repeat center center;
+    height: 53em;
 }
 
+.main h1 {
+    padding: .5em .5em 0 .5em;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+}
 
+.main p {
+    padding: .125em;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.leftspan, .middleleftspan, .middlerightspan, .rightspan {
+    padding: 1em 1.25em 1em 1.25em;
+    margin-top: 0;
+}
 
 
 
