@@ -47,7 +47,7 @@ body {
     border-radius: 0.4em;
 }
 
-.about-box {
+.about-box .project-box .pricing-box .contact-box {
     position: relative;
     text-align: center;
     margin: 0 auto;
