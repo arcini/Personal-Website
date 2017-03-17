@@ -17,6 +17,7 @@ html {
     background: url("/computer.png") no-repeat;
     background-position: 50% 39%;
     height: 50em;
+    width: 100%;
 }
 
 .main-container{
