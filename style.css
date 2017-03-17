@@ -50,7 +50,6 @@ body {
 .about-box {
     position: relative;
     text-align: center;
-    max-width: 90em;
     margin: 0 auto;
     padding: 2em 4em 4em 4em;
     background: #84d971;
