@@ -1,18 +1,27 @@
 * {
+    //border: solid 1px #000;
+}
+
+html {
     background: #64b951;
-    border: solid 0.001em #000;
 }
 
 .main {
     position: relative;
     margin: auto;
-    max-width: 50em;
+    max-width: 90em;
     min-width: 20em;
     text-align: center;
     font-family: "Lobster Two", cursive, sans-serif;
     font-weight: bold;
-    background: url("/computer.png") no-repeat center center;
-    height: 53em;
+    background: url("/computer.png") no-repeat;
+    background-position: 50% 39%;
+    height: 50em;
+}
+
+.main-container{
+    padding-bottom: 5em;
+    
 }
 
 .main h1 {
@@ -22,17 +31,48 @@
 }
 
 .main p {
-    padding: .125em;
+    padding: .125em 0.125em 1em 0.125em;
     font-size: 1.2em;
     margin-top: 0;
-    margin-bottom: 0;
+}
+
+.main span {
+    padding: .6em 1em .6em 1em;
+    margin: 0.3em;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 0.4em;
+}
+
+.about-box {
+    position: relative;
+    text-align: center;
+    max-width: 90em;
+    margin: 0 auto;
+    padding: 0 4em 4em 4em;
+   
+}
+
+#about {
+    padding: 1em 0 0 0;
+    font-family: 'lobster', cursive;
+    font-size: 2em
+}
+
+.about-box p {
+    font-size: 1.2em;
+    font-family: 'arial', sans-serif;
+    font-weight: 100;
 }
 
 span {
-    padding: 1em 1.25em 1em 1.25em;
-    margin-top: 0;
+    color: white;
+    cursor: pointer;
+    background: seagreen;
+    
 }
 
-
-
-
+span:hover {
+    background: lightgreen;
+    color: darkslategray;
+}
