@@ -1,14 +1,18 @@
 * {
-    border: solid 1px #000;
+    //border: solid 1px #000;
 }
 
 html {
     background: #64b951;
 }
 
+body {
+    margin: 0;
+}
+
 .main {
     position: relative;
-    margin: auto;
+    margin: 0 auto;
     max-width: 90em;
     min-width: 20em;
     text-align: center;
@@ -17,7 +21,6 @@ html {
     background: url("/computer.png") no-repeat;
     background-position: 50% 39%;
     height: 50em;
-    width: 100%;
 }
 
 .main-container{
@@ -50,19 +53,19 @@ html {
     text-align: center;
     max-width: 90em;
     margin: 0 auto;
-    padding: 0 4em 4em 4em;
-   
+    padding: 2em 4em 4em 4em;
+    background: #84d971;
 }
 
 #about {
-    padding: 1em 0 0 0;
+    padding: .1em;
     font-family: 'lobster', cursive;
-    font-size: 2em
+    font-size: 4em
 }
 
 .about-box p {
     font-size: 1.2em;
-    font-family: 'arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 
