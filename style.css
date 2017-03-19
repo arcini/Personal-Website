@@ -90,11 +90,11 @@ a {
 }
 
 .about-box {
-    background: dimgray no-repeat center center;
+    background: dimgray;
 }
 
 .project-box {
-    background: url('triangles.png');
+    background: url('triangles.png')  no-repeat center center;
 }
 
 #about {
@@ -104,18 +104,19 @@ a {
 .project-box img {
     width: 20em;
     height: auto;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    margin: 0 0.3em
 }
 
-.project-container div:hover {
-    width: 21em;
+.project-image:hover {
+    width: 23em;
     height: auto;
+    transform: scale(1.15,1.15);
 }
 
 .project-image {
     display: inline-block;
     position: relative;
+    margin: 0.1em;
 }
 
 .project-image h2 {
