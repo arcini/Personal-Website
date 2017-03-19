@@ -93,12 +93,15 @@ a {
     background: dimgray;
 }
 
-.project-box {
-    background: url('triangles.png')  no-repeat center center;
-}
 
 #about {
     color: #64b951;
+}
+
+.project-box {
+    background-image: url('triangles.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .project-box img {
@@ -116,7 +119,7 @@ a {
 .project-image {
     display: inline-block;
     position: relative;
-    margin: 0.1em;
+    margin: 0.9em 0.5em;
 }
 
 .project-image h2 {
