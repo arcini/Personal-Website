@@ -45,6 +45,9 @@ body {
     margin: 0.3em;
     font-size: 1.2em;
     border-radius: 0.4em;
+    color: white;
+    cursor: pointer;
+    background: seagreen;
 }
 
 .about-box, .project-box, .pricing-box, .contact-box {
@@ -72,14 +75,8 @@ body {
     color: #FFF;
 }
 
-span {
-    color: white;
-    cursor: pointer;
-    background: seagreen;
-    
-}
 
-span:hover {
+.main span:hover {
     background: lightgreen;
     color: darkslategray;
 }
@@ -111,8 +108,17 @@ a {
     padding-right: 0.5em;
 }
 
-.project-box img:hover {
-    width: 22em;
+.project-container div:hover {
+    width: 21em;
     height: auto;
 }
 
+.project-image {
+    display: inline-block;
+    position: relative;
+}
+
+.project-image h2 {
+    color: powderblue;
+    font-family: 'open sans', sans-serif;
+}
