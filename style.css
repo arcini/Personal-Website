@@ -47,24 +47,29 @@ body {
     border-radius: 0.4em;
 }
 
-.about-box.project-box.pricing-box.contact-box {
+.about-box, .project-box, .pricing-box, .contact-box {
     position: relative;
     text-align: center;
     margin: 0 auto;
-    padding: 2em 4em 4em 4em;
-    background: #84d971;
+    padding: 4em 4em 9em 4em;
+    
 }
 
-#about {
+#about, #pricing, #projects, #contact {
     padding: .1em;
     font-family: 'lobster', cursive;
     font-size: 4em
 }
 
-.about-box p {
-    font-size: 1.2em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+.about-box p, .project-box p, .pricing-box p, .contact-box p {
+    font-size: 1.6em;
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    max-width: 40em;
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
 }
 
 span {
@@ -82,3 +87,32 @@ span:hover {
 a {
     text-decoration: none;
 }
+
+#projects {
+    color: powderblue;
+}
+
+.about-box {
+    background: dimgray no-repeat center center;
+}
+
+.project-box {
+    background: url('triangles.png');
+}
+
+#about {
+    color: #64b951;
+}
+
+.project-box img {
+    width: 20em;
+    height: auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.project-box img:hover {
+    width: 22em;
+    height: auto;
+}
+
