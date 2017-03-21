@@ -126,3 +126,16 @@ a {
     color: powderblue;
     font-family: 'open sans', sans-serif;
 }
+
+.contact-box span {
+    margin: 0 1.5em;
+    color: #FFF;
+}
+
+.contact-box {
+    background: dimgray;
+}
+
+#contact {
+    color: #64b951;
+}
